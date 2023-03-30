@@ -29,6 +29,7 @@ Deploy do projeto (via streamlit):<br>
 * IDE de python (ambiente de desenvolvimento integrado de python)
 * Base de dados (planilha csv)
 * Prompt de comando do programa python (onde será executado o comando do streamlit para visualizar o deploy do projeto e, consequentemente, a previsão do valor do vôo) 
+* Navegador web (para o download de alguns arquivos utilizados no projeto que não estão disponibilizados aqui no Github, em razão do tamanho destes arquivos acima de 100MB)
 
 ## Execução
 
