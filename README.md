@@ -29,13 +29,17 @@ Deploy do projeto (via streamlit):<br>
 * IDE de python (ambiente de desenvolvimento integrado de python)
 * Base de dados (planilha csv)
 * Prompt de comando do programa python (onde será executado o comando do streamlit para visualizar o deploy do projeto e, consequentemente, a previsão do valor do vôo) 
-* Navegador web (para o download de alguns arquivos utilizados no projeto que não estão disponibilizados aqui no Github, em razão do tamanho destes arquivos acima de 100MB)
+* Navegador web (para o download de um arquivo utilizado no projeto que não está disponibilizado aqui no Github, em razão do tamanho deste arquivo acima de 100MB)
 
 ## Execução
 
 <strong>1.</strong> executar o arquivo 'Semana Cientista de Dados.py', no qual faz-se toda a análise de dados estatística, ciência de dados, machine learning e definição do melhor modelo de previsão;<br>
-<strong>2.</strong> executar o arquivo 'DeployStreamlitFlight.py', onde será gerado o deploy do modelo de previsão;<br>
-<strong>3.</strong> dentro do prompt de comando do programa python escolhido (no meu caso, utilizei o Anaconda Prompt (anaconda3)), encontrar a pasta onde se encontra o arquivo "DeployStreamlitFlight.py" e executar o comando "streamlit run DeployStreamlitFlight.py" para visualizar, no navegador padrão do computador, o modelo preditivo do valor do vôo.<br>
+<br>
+<strong>2.</strong> fazer o download do arquivo joblib referente ao modelo de previsão no link público do Google Drive: https://drive.google.com/drive/folders/1kLskd-JorZkvHk9cedesA45qR9FtoE7F?usp=share_link ;<br>
+<br>
+<strong>3.</strong> executar o arquivo 'DeployStreamlitFlight.py', onde será gerado o deploy do modelo de previsão;<br>
+<br>
+<strong>4.</strong> dentro do prompt de comando do programa python escolhido (no meu caso, utilizei o Anaconda Prompt (anaconda3)), encontrar a pasta onde se encontra o arquivo "DeployStreamlitFlight.py" e executar o comando "streamlit run DeployStreamlitFlight.py" para visualizar, no navegador padrão do computador, o modelo preditivo do valor do vôo.<br>
 
 ## Bibliotecas
 * <strong>pandas:</strong> biblioteca que permite, no caso, a integração de arquivo excel<br>
